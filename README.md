@@ -10,8 +10,7 @@ Here we investigated the impact of noise and missing values on the quality of di
 ------------------
 ## Dataset Preprocessing 
 For our analysis we used 4 datasets from kaggle. Below you can see their description. Each dataset was preprocessed before our experiments. All steps that were done with the data are written in the DataPreprocessing.ipynb
-
-![изображение](https://user-images.githubusercontent.com/52636876/159603176-39f9b9df-2b2b-4385-813b-7ef2477b15ce.png)
+![изображение](https://user-images.githubusercontent.com/52636876/159603770-0211f39a-530c-4e00-b3fb-bc0c9af5bf72.png)
 
 
 ## Data Corruptions Experiments 
