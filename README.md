@@ -36,9 +36,7 @@ For dropping values from the data set we had only one approach - missing at rand
    A little bit more complex, but possible.  See examples in /MLbasedImputation directory. Here different parts of data corruption splitted to different notebooks. 
 
    MLbasedImputation/MissingFeaturesAndImputation.ipynb - contains faeature corruption experiments
-   
    MLbasedImputation/MissingImportantFeaturesAndImputation.ipynb- experiments with important feature corruptions
-   
    MLbasedImputation/MissingTargetsAndImputation.ipynb - target corruption.
 
 All this notebooks can be run with colab. 
