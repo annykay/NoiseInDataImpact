@@ -8,6 +8,12 @@ Here we investigated the impact of noise and missing values on the quality of di
 
 
 ------------------
+## Dataset Preprocessing 
+For our analysis we used 4 datasets from kaggle. Below you can see their description. Each dataset was preprocessed before our experiments. All steps that were done with the data are written in the DataPreprocessing.ipynb
+
+![изображение](https://user-images.githubusercontent.com/52636876/159603176-39f9b9df-2b2b-4385-813b-7ef2477b15ce.png)
+
+
 ## Data Corruptions Experiments 
 
 There are two main ways to corrupt the data: add noise to it and drop some values 
@@ -28,10 +34,10 @@ For dropping values from the data set we had only one approach - missing at rand
    Zero, Mean, Median - simple and intuitive. How we implemented them - see in VISHAL_NOTEBOOK_PATH
 2) Regression ML-based approaches 
    A little bit more complex, but possible.  See examples in /MLbasedImputation directory. Here different parts of data corruption splitted to different notebooks. 
+
+   MLbasedImputation/MissingFeaturesAndImputation.ipynb - contains faeature corruption experiments
    
-   MLbasedImputation/MissingFeaturesAndImputation.ipynb - contains faeature corruption experiments;
-   
-   MLbasedImputation/MissingImportantFeaturesAndImputation.ipynb - experiments with important feature corruptions;
+   MLbasedImputation/MissingImportantFeaturesAndImputation.ipynb- experiments with important feature corruptions
    
    MLbasedImputation/MissingTargetsAndImputation.ipynb - target corruption.
 
