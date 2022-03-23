@@ -4,13 +4,13 @@
 
 Here we investigated the impact of noise and missing values on the quality of different machine learning models. Our aim was to explore how different classification models respond to noise and give some practical recommendations.To do it we took 4 different datasets, corrupted them, trained models on corrupted datasets and investigated the performance. We tried to spoil different parts of our datasets: features, targets, important features – and   see how the models will respond to it.
 
-![изображение](https://user-images.githubusercontent.com/52636876/159592306-d514c143-9acf-47b1-ac90-3ef97aaf046b.png)
+![изображение](https://user-images.githubusercontent.com/52636876/159603830-b3b4fcfa-e4ad-4682-a590-835a754fb26d.png)
 
 
 ------------------
 ## Dataset Preprocessing 
 For our analysis we used 4 datasets from kaggle. Below you can see their description. Each dataset was preprocessed before our experiments. All steps that were done with the data are written in the DataPreprocessing.ipynb
-![изображение](https://user-images.githubusercontent.com/52636876/159603770-0211f39a-530c-4e00-b3fb-bc0c9af5bf72.png)
+![изображение](https://user-images.githubusercontent.com/52636876/159603878-218a4e6f-0f5f-424c-af49-3e26cef7dc72.png)
 
 
 ## Data Corruptions Experiments 
