@@ -20,17 +20,17 @@ There are two main ways to corrupt the data: add noise to it and drop some value
 For noise simulation we used three different approaches:
 1) Random Change;
    Each value in the dataset can be replaced by a random value with some probability. The noise level, in this case is the probability to be changed. 
-   Example of provided experiment and results can be seen at ALEXANDERS_NOTEBOOK_PATH 
+   Example of provided experiment and results can be seen at RandomChangeNoise.ipynb 
 2) Gaussian Noise;
    Can be added to numerical features only. We generate samples from random gaussian distribution and add them to our data. 
-   See how it worked with our dataset in AIRAT_NOTEBOOK_PATH
+   See how it worked with our dataset in GaussianNoise.ipynb
 3) Flipping
   Flip the values of some feature for a pair of samples. Noise level here is the amount of flips, so it can be more than one. The most specific case of noise adding, because it does not change the data itself, just permut it. 
-  Want to try? Examples are already at EGOR_NOTEBOOK_PATH 
+  Want to try? Examples are already at FlippingNoise.ipynb
   
 For dropping values from the data set we had only one approach - missing at random - each value has equal probability to be missed. But! We tried different approaches for data imputation. That were: 
 1) Statistical approaches 
-   Zero, Mean, Median - simple and intuitive. How we implemented them - see in VISHAL_NOTEBOOK_PATH
+   Zero, Mean, Median - simple and intuitive. How we implemented them - see in RandomNullNoise.ipynb
 2) Regression ML-based approaches 
    A little bit more complex, but possible.  See examples in /MLbasedImputation directory. Here different parts of data corruption splitted to different notebooks. 
 
