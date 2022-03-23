@@ -28,8 +28,11 @@ For dropping values from the data set we had only one approach - missing at rand
    Zero, Mean, Median - simple and intuitive. How we implemented them - see in VISHAL_NOTEBOOK_PATH
 2) Regression ML-based approaches 
    A little bit more complex, but possible.  See examples in /MLbasedImputation directory. Here different parts of data corruption splitted to different notebooks. 
-   MLbasedImputation/MissingFeaturesAndImputation.ipynb - contains faeature corruption experiments
-   MLbasedImputation/MissingImportantFeaturesAndImputation.ipynb - experiments with important feature corruptions
+   
+   MLbasedImputation/MissingFeaturesAndImputation.ipynb - contains faeature corruption experiments;
+   
+   MLbasedImputation/MissingImportantFeaturesAndImputation.ipynb - experiments with important feature corruptions;
+   
    MLbasedImputation/MissingTargetsAndImputation.ipynb - target corruption.
 
 
