@@ -35,6 +35,18 @@ For dropping values from the data set we had only one approach - missing at rand
    
    MLbasedImputation/MissingTargetsAndImputation.ipynb - target corruption.
 
+All this notebooks can be run with colab. 
+
+--------------------
+## Brief Results
+ - The XGB model can handle random noise in train data better, which seems like overfitting. But for the test date, random noise affects all models equally badly;
+ - Highly Imbalanced datasets react to gaussian noise much less than balanced ones;
+ - Influence of gaussian noise to Multiclass datasets greater;
+ - Gradient models and imbalanced datasets turned out to be the most resistant to flipping noising;
+ - Balanced and multiclass datasets are more affected by the random null values; 
+ - If the dataset is highly imbalanced and has null values in labels, it is disastrous. However, it might be a better idea to fill the null values with the dominant class. If dataset has null values in features one can use any value to fill them from 0, mean and median, in almost all the cases it doesn’t affect much but there are more efficient methods than these.
+ - ML based imputation methods perform uniformly well, but the best ones were LR and ETR
+
 
 
 
