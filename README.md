@@ -56,8 +56,11 @@ All this notebooks can be run with colab.
 Links for downloading datasets:
 
 Rice:https://www.kaggle.com/mssmartypants/rice-type-classification
+
 Stellar:https://www.kaggle.com/fedesoriano/stellar-classification-dataset-sdss17
+
 Bank: https://www.kaggle.com/rashmiranu/banking-dataset-classification?select=new_train.csv
+
 Pulsar: https://www.kaggle.com/colearninglounge/predicting-pulsar-starintermediate
 
 
