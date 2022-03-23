@@ -50,6 +50,15 @@ All this notebooks can be run with colab.
  - If the dataset is highly imbalanced and has null values in labels, it is disastrous. However, it might be a better idea to fill the null values with the dominant class. If dataset has null values in features one can use any value to fill them from 0, mean and median, in almost all the cases it doesn’t affect much but there are more efficient methods than these.
  - ML based imputation methods perform uniformly well, but the best ones were LR and ETR
 
+--------------------------
+## Technikal Notes 
+
+Links for downloading datasets:
+
+Rice:https://www.kaggle.com/mssmartypants/rice-type-classification
+Stellar:https://www.kaggle.com/fedesoriano/stellar-classification-dataset-sdss17
+Bank: https://www.kaggle.com/rashmiranu/banking-dataset-classification?select=new_train.csv
+Pulsar: https://www.kaggle.com/colearninglounge/predicting-pulsar-starintermediate
 
 
 
